@@ -9,7 +9,7 @@ export default function Store({products, handleAdd}){
                     <img className="product-image" alt="component" src={product.img}></img>
                     <p className="product-name">{product.brand} {product.name}</p>
                     <p className="product-price">${product.price}</p>
-                    <button onClick={handleAdd} className="product-add">Add to cart</button>
+                    <button onClick={() => handleAdd(product)} className="product-add">Add to cart</button>
                 </div>
             })}
         </div>

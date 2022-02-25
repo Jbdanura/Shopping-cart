@@ -2,7 +2,7 @@
 .home-store button{
     padding: 5vh 5vw;
     background-color: rgba(88, 196, 124, 0.842);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
     transition: .2s;
     float:right;
